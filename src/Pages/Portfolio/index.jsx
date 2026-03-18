@@ -11,7 +11,7 @@ import Profile from '../../assets/perfil_720p.jpg'
 import Navbar from '../../components/Navbar'
 import { animation } from '../../lib/framerAnimations'
 
-const Portifolio = () => {
+const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('')
 
   useEffect(() => {
@@ -94,4 +94,4 @@ const Portifolio = () => {
   )
 }
 
-export default Portifolio
+export default Portfolio

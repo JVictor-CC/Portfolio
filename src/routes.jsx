@@ -1,15 +1,15 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Pages/Home'
-import Portifolio from './Pages/Portifolio'
+import Portfolio from './Pages/Portfolio'
 
 const router = createBrowserRouter([
   {
-    path: '/Portifolio/',
+    path: '/Portfolio/',
     element: <Home />,
   },
   {
-    path: '/Portifolio/cv',
-    element: <Portifolio />,
+    path: '/Portfolio/cv',
+    element: <Portfolio />,
   },
 ])
 

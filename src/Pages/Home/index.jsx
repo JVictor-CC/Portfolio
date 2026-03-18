@@ -24,10 +24,10 @@ const Home = () => {
             <h1 className="font-afacadflux text-4xl md:text-5xl italic">João Victor de Souza</h1>
             <h2 className="text-sm md:text-base">Desenvolvedor FullStack</h2>
             <Link
-              to={'/Portifolio/cv'}
+              to={'/Portfolio/cv'}
               className="glow min-w-40 mt-8 px-3 py-1 text-center border border-blue-500 rounded-md"
             >
-              Portifólio
+              Portfólio
             </Link>
           </div>
         </motion.main>
