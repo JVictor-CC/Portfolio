@@ -3,18 +3,18 @@ import { animation } from '../lib/framerAnimations'
 
 const ProjectCard = ({ imageSrc, projectName, description, tools, url }) => {
   return (
-    <div className="flex flex-row justify-center hover:bg-white hover:dark:bg-zinc-800 hover:shadow-lg rounded-lg px-2 py-4 space-x-6 transition-all duration-500">
+    <div className="flex flex-row justify-center items-center hover:bg-white hover:dark:bg-zinc-800 hover:shadow-lg rounded-lg px-2 py-4 space-x-6 transition-all duration-500">
       <motion.div
         variants={animation(0.1)}
         whileInView="visible"
         initial={{ x: -100, opacity: 0 }}
         viewport={{ once: true }}
-        className="w-1/3 flex justify-center"
+        className="w-3/5 md:w-1/3 lg:w-2/5 flex justify-center"
       >
         <img
           src={imageSrc}
           alt={projectName}
-          className="w-full max-w-32 h-auto rounded-lg border"
+          className="w-full max-w-48 h-auto min-h-[150px] rounded-lg border"
         />
       </motion.div>
       <div className="w-full md:w-2/3 flex flex-col space-y-2">
