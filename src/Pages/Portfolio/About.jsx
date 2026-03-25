@@ -33,7 +33,7 @@ const About = () => {
           </span>{' '}
           utilizando a Ontologia Kuaba, culminando na{' '}
           <span className="text-highlight">
-            publicação de um artigo na 14ª edição da Revista de Sistemas e Computação (RSC)
+            publicação de um artigo na 15ª edição da Revista de Sistemas e Computação (RSC)
           </span>
           .
         </motion.p>

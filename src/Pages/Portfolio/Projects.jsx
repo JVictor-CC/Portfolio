@@ -1,8 +1,8 @@
 import ProjectCard from '../../components/ProjectCard'
-import studyCase from '../../assets/google-study-case.png'
-import icProject from '../../assets/projeto_ic.png'
-import myChat from '../../assets/my_chat.png'
-import myTCC from '../../assets/tcc_project.png'
+import studyCase from '../../assets/project_google_studycase.png'
+import icProject from '../../assets/project_ic.png'
+import myChat from '../../assets/project_mychat.png'
+import myTCC from '../../assets/project_tcc.png'
 
 const Projects = () => {
   const projectData = [
