@@ -2,7 +2,7 @@ import ProjectCard from '../../components/ProjectCard'
 import studyCase from '../../assets/google-study-case.png'
 import icProject from '../../assets/projeto_ic.png'
 import myChat from '../../assets/my_chat.png'
-import myTCC from '../../assets/tcc.png'
+import myTCC from '../../assets/tcc_project.png'
 
 const Projects = () => {
   const projectData = [
@@ -16,7 +16,8 @@ const Projects = () => {
     {
       imageSrc: icProject,
       projectName: 'Projeto de Pesquisa IC',
-      description: 'Projeto de pesquisa em ES com foco na adaptação de uma ferramenta de modelagem UML para atender as especificações da ontologia Kuaba e geração automática de código, a partir da transformação entre modelos.',
+      description:
+        'Projeto de pesquisa em ES com foco na adaptação de uma ferramenta de modelagem UML para atender as especificações da ontologia Kuaba e geração automática de código, a partir da transformação entre modelos.',
       tools: ['Engenharia de Software', 'Java', 'Modelio', 'UML'],
       url: 'https://github.com/adrianamedeiros-uff/Kuaba-Software-Engineering-tool',
     },
